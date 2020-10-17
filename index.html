@@ -1,0 +1,111 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>FreeBuisness</title>
+	<!-- Адаптив -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<!-- Подключаем CSS --->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+	<meta charset="UTF-8">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<div class="wraper">
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo">
+						<a href="#"><img src="img/header/logo.png" alt=""></a>
+					</div>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<div class="header__menu">
+						<nav>
+							<ul class="header__list">
+								<li class="header__link"><a href="#">home</a></li>
+								<li class="header__link"><a href="#">service</a></li>
+								<li class="header__link"><a href="#">about us</a></li>
+								<li class="header__link"><a href="#">pricing table</a></li>
+								<li class="header__link"><a href="#">how it work</a></li>
+								<li class="header__link"><a href="#">happy clients</a></li>
+								<li class="header__link"><a href="#">contact us</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+		<section class="baner">
+			<div class="container">
+				<div class="baner__title title">
+					Boost up your Local business
+				</div>
+				<div class="baner__text text">
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+					Ipsum typesetting
+				</div>
+				<div class="baner__form">
+					<form action="" class="baner__form">
+						<div>
+							<button type="submit" class="form-button"><i class="fas fa-user"></i></button>
+							<input type="text" placeholder="Full Name">
+						</div>
+
+						<div>
+							<button type="submit" class="form-button"><i class="fas fa-envelope"></i></button>
+							<input type="text" placeholder="Email Address">
+						</div>
+
+						<div>
+							<button type="submit" class="form-button"><i class="fas fa-phone-alt"></i></button>
+							<input type="phone" placeholder="Phone Number">
+						</div>
+						<button class="baner__button button">Request a quote</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<div class="baner-slider">
+			<div class="baner-slider__container ibg">
+				<img src="img/baner/notebook.png" alt="">
+			</div>
+			<div class="note-slide">
+				<div class="slider">
+					<div class="slider__item ibg">
+						<img src="img/baner/slide01.png" alt="">
+					</div>
+					<div class="slider__item ibg">
+						<img src="img/baner/slide02.png" alt="">
+					</div>
+					<div class="slider__item ibg">
+						<img src="img/baner/slide03.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/610ac3e35c.js" crossorigin="anonymous"></script>
+	<script src="js/burger.js"></script>
+	<script src="js/ibg.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/slick.min.js"></script>
+</body>
+
+</html>
