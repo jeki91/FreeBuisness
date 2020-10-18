@@ -28,7 +28,7 @@
 	}
 	.slick-arrow.slick-prev {
 		left: -65px;
-		background: url("../img/baner/left.png") 40% 50% no-repeat;
+		background: url("../images/left.png") 40% 50% no-repeat;
 		&:hover {
 			background-color: #404648;
 			border: 1px solid #404648;
@@ -36,7 +36,7 @@
 	}
 	.slick-arrow.slick-next {
 		right: -65px;
-		background: url("../img/baner/left.png") 50% 40% no-repeat;
+		background: url("../images/left.png") 50% 40% no-repeat;
 		transform: rotate(180deg);
 		&:hover {
 			background-color: #404648;
