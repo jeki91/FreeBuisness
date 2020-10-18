@@ -483,3 +483,67 @@ i {
 	}
 }
 //================/services==============
+
+//================about==============
+.about {
+
+	&__row {
+		display: flex;
+	}
+
+	&__item {
+		flex: 0 0 50%;
+	}
+
+	&__body {
+		padding: 165px 265px 175px 80px;
+	}
+
+	&__title {
+		color: #fff;
+		font-size: 30px;
+		text-align: left;
+		padding-bottom: 30px;
+	}
+
+	&__text {
+		color: #fff;
+		text-align: left;
+		font-size: 13px;
+		padding-bottom: 30px;
+	}
+
+	&__button {
+		display: inline-block;
+		padding: 12px 30px;
+		border: 1px solid #e7ad48;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		color: #fff;
+	}
+}
+.bg {
+	background-color: #ffc155;
+}
+@media (max-width: 1250px) {
+	.about__body {
+		padding: 165px 80px 175px 80px;
+	}
+}
+@media (max-width: 1000px) {
+	.about__body {
+		padding: 50px 30px 50px 30px;
+	}
+}
+@media (max-width: 680px) {
+	.about__row {
+		flex-wrap: wrap;
+	}
+	.about__item {
+		flex: 0 0 100%;
+	}
+	.img {
+		padding-bottom: 344px;
+	}
+}
+//================/about==============
