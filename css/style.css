@@ -617,6 +617,7 @@ i {
 }
 
 .services {
+  overflow: hidden;
   margin: 140px 0px 115px 0px;
 }
 
