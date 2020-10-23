@@ -1019,6 +1019,12 @@ i {
   content: none;
 }
 
+.work__item:nth-child(2):after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  top: 60px;
+}
+
 .work__column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1083,6 +1089,11 @@ i {
   }
   .work__item:nth-child(2):after {
     content: none;
+  }
+  .work__item:nth-child(3):after {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    top: 60px;
   }
   .work__item .work__text {
     padding-bottom: 30px;
