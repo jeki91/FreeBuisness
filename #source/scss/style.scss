@@ -11,8 +11,18 @@
 	font-style: normal;
 }
 
+
 /*font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
+
+@font-face {
+	font-family: 'BrandonGrotesque';
+	src: url('../fonts/BrandonGrotesque-Bold.eot');
+	src: local('☺'), url('../fonts/BrandonGrotesque-Bold.woff') format('woff'), url('../fonts/BrandonGrotesque-Bold.ttf') format('truetype'), url('../fonts/BrandonGrotesque-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
 
 .wraper {
 	max-width: 1700px;
@@ -797,5 +807,118 @@ i {
 	}
 	.work-fas {
 		font-size: 60px;
+	}
+}
+//========clients===========
+.clients {
+	padding: 140px 0 130px 0;
+	background-color: #ffc155;
+	&__title {
+		color: #fff;
+	}
+
+	&__text {
+		color: #fff;
+		padding-bottom: 50px;
+	}
+
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	&__item {
+		
+		flex: 0 1 48.7%;
+		display: flex;
+		background-color: #fff;
+		padding: 50px 30px;
+		margin-bottom: 30px;
+
+	}
+
+	&__image {
+		flex: 0 0 120px;
+		max-height: 120px;
+		border-radius: 50%;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		padding: 0px 0px 0px 30px;
+	}
+
+	&__description {
+		font-family: 'Open Sans', sans-serif;
+		color: #7b7b7b;
+		font-size: 13px;
+		line-height: 1.69;
+		padding-bottom: 30px;
+		span {
+			position: relative;
+			&:before, &:after {
+				content: ' “ ';
+				position: absolute;
+				font-family: 'BrandonGrotesque';
+				font-size: 30px;
+			}
+			&:before {
+				top: -15px;
+				left: -20px;
+			}
+			&:after {
+				bottom: -30px;
+				right: -20px;
+				transform: scale(-1, 1)
+			}
+		}
+	}
+
+	&__name {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		line-height: 1.57;
+		color: #7b7b7b;
+		span {
+			color: #f6772c;
+		}
+	}
+}
+@media (max-width: 860px) {
+	.clients {
+		padding: 40px 0 30px 0;
+	}
+	.clients__item {
+		flex: 0 1 100%;
+		padding: 20px;
+	}
+	.clients__text {
+		padding-bottom: 20px;
+	}
+}
+@media (max-width: 460px) {
+	.clients__image {
+		flex: 0 0 60px;
+		max-height: 60px;
+	}
+	.clients__description {
+		text-align: justify;
+	}
+}
+@media (max-width: 350px) {
+	.clients__item {
+		flex-direction: column;
+	}
+	.clients__image {
+		max-width: 80px;
+		max-height: 80px;	
+		margin: 0 auto;
+		margin-bottom: 10px;
 	}
 }

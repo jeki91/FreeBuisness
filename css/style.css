@@ -102,6 +102,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /*font-family: 'Lato', sans-serif;
 font-family: 'Open Sans', sans-serif;*/
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url("../fonts/BrandonGrotesque-Bold.eot");
+  src: local("☺"), url("../fonts/BrandonGrotesque-Bold.woff") format("woff"), url("../fonts/BrandonGrotesque-Bold.ttf") format("truetype"), url("../fonts/BrandonGrotesque-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .wraper {
   max-width: 1700px;
   margin: 0 auto;
@@ -1123,5 +1131,150 @@ i {
   }
   .work-fas {
     font-size: 60px;
+  }
+}
+
+.clients {
+  padding: 140px 0 130px 0;
+  background-color: #ffc155;
+}
+
+.clients__title {
+  color: #fff;
+}
+
+.clients__text {
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+.clients__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 48.7%;
+          flex: 0 1 48.7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  padding: 50px 30px;
+  margin-bottom: 30px;
+}
+
+.clients__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 120px;
+          flex: 0 0 120px;
+  max-height: 120px;
+  border-radius: 50%;
+}
+
+.clients__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.clients__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 0px 0px 30px;
+}
+
+.clients__description {
+  font-family: 'Open Sans', sans-serif;
+  color: #7b7b7b;
+  font-size: 13px;
+  line-height: 1.69;
+  padding-bottom: 30px;
+}
+
+.clients__description span {
+  position: relative;
+}
+
+.clients__description span:before, .clients__description span:after {
+  content: ' “ ';
+  position: absolute;
+  font-family: 'BrandonGrotesque';
+  font-size: 30px;
+}
+
+.clients__description span:before {
+  top: -15px;
+  left: -20px;
+}
+
+.clients__description span:after {
+  bottom: -30px;
+  right: -20px;
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.clients__name {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.57;
+  color: #7b7b7b;
+}
+
+.clients__name span {
+  color: #f6772c;
+}
+
+@media (max-width: 860px) {
+  .clients {
+    padding: 40px 0 30px 0;
+  }
+  .clients__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    padding: 20px;
+  }
+  .clients__text {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .clients__image {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60px;
+            flex: 0 0 60px;
+    max-height: 60px;
+  }
+  .clients__description {
+    text-align: justify;
+  }
+}
+
+@media (max-width: 350px) {
+  .clients__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .clients__image {
+    max-width: 80px;
+    max-height: 80px;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
