@@ -74,15 +74,15 @@
 			border: 1px solid #056184;
 		}
 		.slider__item {
-			height: 132px;
+			height: 198px;
 		}
 	}
-	@media (max-width: 680px) {
+	@media (max-width: 500px) {
 		.slider__item {
-			height: 132px;
+			height: 148.5px;
 		}
 	}
-	@media (max-width: 340px) {
+	@media (max-width: 390px) {
 		.slider__item {
 			height: 118.8px;
 		}
