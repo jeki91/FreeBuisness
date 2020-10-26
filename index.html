@@ -28,15 +28,15 @@
 						<span></span>
 					</div>
 					<div class="header__menu">
-						<nav>
-							<ul class="header__list">
-								<li class="header__link"><a href="#">home</a></li>
-								<li class="header__link"><a href="#">service</a></li>
-								<li class="header__link"><a href="#">about us</a></li>
-								<li class="header__link"><a href="#">pricing table</a></li>
-								<li class="header__link"><a href="#">how it work</a></li>
-								<li class="header__link"><a href="#">happy clients</a></li>
-								<li class="header__link"><a href="#">contact us</a></li>
+						<nav class="nav">
+							<ul class="header__list" id="top-menu">
+								<li><a href="#home" class="header__link">home</a></li>
+								<li><a href="#service" class="header__link">service</a></li>
+								<li><a href="#about" class="header__link">about us</a></li>
+								<li><a href="#pricing" class="header__link">pricing table</a></li>
+								<li><a href="#work" class="header__link">how it work</a></li>
+								<li><a href="#clients" class="header__link">happy clients</a></li>
+								<li><a href="#contact" class="header__link">contact us</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -45,7 +45,7 @@
 		</header>
 
 
-		<div class="baner">
+		<section class="baner" id="home">
 			<div class="container">
 				<h1 class="baner__title title">
 					Boost up your Local business
@@ -74,7 +74,7 @@
 					</form>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<div class="baner-slider">
 			<div class="baner-slider__container ibg">
@@ -96,7 +96,7 @@
 		</div>
 
 
-		<section class="services">
+		<section class="services" id="service">
 			<div class="container">
 				<h2 class="services__title title">Our Services</h2>
 				<div class="services__text text">Lorem Ipsum is simply dummy Business industry.</div>
@@ -196,7 +196,7 @@
 			</div>
 		</section>
 
-		<section class="about">
+		<section class="about" id="about">
 			<div class="about__row">
 				<div class="about__item img ibg">
 					<img src="images/about.png" alt="">
@@ -217,7 +217,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="pricing">
+
+		<section class="pricing" id="pricing">
 			<div class="container">
 				<h2 class="pricing__title title">Choos your price</h2>
 				<div class="pricing__text text">
@@ -287,191 +288,239 @@
 					</div>
 				</div>
 			</div>
-	</div>
-	</section>
 
-	<section class="work">
-		<div class="container">
-			<div class="work__title title">
-				How it works
-			</div>
-			<div class="work__text text">
-				Lorem Ipsum is simply dummy Business industry
-			</div>
-			<div class="work__row">
-				<div class="work__item">
-					<div class="work__column">
-						<div class="column__work-logo">
-							<i class="fas fa-headphones work-fas"></i>
-							<!--<i class="fas fa-unlock-alt"></i>-->
-						</div>
-						<div class="column__work-title">Step 1</div>
-						<div class="column__work-text">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						</div>
-					</div>
-				</div>
-				<div class="work__item">
-					<div class="work__column">
-						<div class="column__work-logo">
-							<i class="fas fa-unlock-alt work-fas"></i>
-						</div>
-						<div class="column__work-title">Step 2</div>
-						<div class="column__work-text">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						</div>
-					</div>
-				</div>
-				<div class="work__item">
-					<div class="work__column">
-						<div class="column__work-logo">
-							<i class="fas fa-cloud-upload-alt work-fas"></i>
-						</div>
-						<div class="column__work-title">Step 3</div>
-						<div class="column__work-text">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						</div>
-					</div>
-				</div>
-				<div class="work__item">
-					<div class="work__column">
-						<div class="column__work-logo">
-							<i class="fas fa-thumbs-up work-fas"></i>
-						</div>
-						<div class="column__work-title">Step 4</div>
-						<div class="column__work-text">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-						</div>
-					</div>
-				</div>
-			</div>
-			<a href="" class="work__button button">get start now</a>
-		</div>
-	</section>
+		</section>
 
-	<section class="clients">
-		<div class="container">
-			<div class="clients__title title">
-				Happy Clients
-			</div>
-			<div class="clients__text text">
-				We are explain who is using our business solutions
-			</div>
-			<div class="clients__row">
-				<div class="clients__item">
-					<div class="clients__image">
-						<img src="images/face1.png" alt="">
-					</div>
-					<div class="clients__body">
-						<div class="clients__description">
-							<span>
+		<section class="work" id="work">
+			<div class="container">
+				<div class="work__title title">
+					How it works
+				</div>
+				<div class="work__text text">
+					Lorem Ipsum is simply dummy Business industry
+				</div>
+				<div class="work__row">
+					<div class="work__item">
+						<div class="work__column">
+							<div class="column__work-logo">
+								<i class="fas fa-headphones work-fas"></i>
+								<!--<i class="fas fa-unlock-alt"></i>-->
+							</div>
+							<div class="column__work-title">Step 1</div>
+							<div class="column__work-text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of
-								type and scrambled it to make.
-							</span>
-						</div>
-						<div class="clients__name">
-							<span>Darwin Michle, </span>Project manager
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="clients__item">
-					<div class="clients__image">
-						<img src="images/face2.png" alt="">
-					</div>
-					<div class="clients__body">
-						<div class="clients__description">
-							<span>
+					<div class="work__item">
+						<div class="work__column">
+							<div class="column__work-logo">
+								<i class="fas fa-unlock-alt work-fas"></i>
+							</div>
+							<div class="column__work-title">Step 2</div>
+							<div class="column__work-text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of
-								type and scrambled it to make. a type specimen book.
-							</span>
-						</div>
-						<div class="clients__name">
-							<span>Madam Elisabath, </span>Creative Director
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="clients__item">
-					<div class="clients__image">
-						<img src="images/face3.png" alt="">
-					</div>
-					<div class="clients__body">
-						<div class="clients__description">
-							<span>
+					<div class="work__item">
+						<div class="work__column">
+							<div class="column__work-logo">
+								<i class="fas fa-cloud-upload-alt work-fas"></i>
+							</div>
+							<div class="column__work-title">Step 3</div>
+							<div class="column__work-text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of
-								type and scrambled it to make.
-							</span>
-						</div>
-						<div class="clients__name">
-							<span>Clips arter, </span>Lipsum directer
+							</div>
 						</div>
 					</div>
-				</div>
-				<div class="clients__item">
-					<div class="clients__image">
-						<img src="images/face4.png" alt="">
-					</div>
-					<div class="clients__body">
-						<div class="clients__description">
-							<span>
+					<div class="work__item">
+						<div class="work__column">
+							<div class="column__work-logo">
+								<i class="fas fa-thumbs-up work-fas"></i>
+							</div>
+							<div class="column__work-title">Step 4</div>
+							<div class="column__work-text">
 								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-								the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of
-								type and scrambled it to make. a type specimen book.
-							</span>
+							</div>
 						</div>
-						<div class="clients__name">
-							<span>Clips arter, </span>Lipsum directer
+					</div>
+				</div>
+				<a href="" class="work__button button">get start now</a>
+			</div>
+		</section>
+
+		<section class="clients" id="clients">
+			<div class="container">
+				<div class="clients__title title">
+					Happy Clients
+				</div>
+				<div class="clients__text text">
+					We are explain who is using our business solutions
+				</div>
+				<div class="clients__row">
+					<div class="clients__item">
+						<div class="clients__image">
+							<img src="images/face1.png" alt="">
+						</div>
+						<div class="clients__body">
+							<div class="clients__description">
+								<span>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+									been
+									the industry standard dummy text ever since the 1500s, when an unknown printer took a galley
+									of
+									type and scrambled it to make.
+								</span>
+							</div>
+							<div class="clients__name">
+								<span>Darwin Michle, </span>Project manager
+							</div>
+						</div>
+					</div>
+					<div class="clients__item">
+						<div class="clients__image">
+							<img src="images/face2.png" alt="">
+						</div>
+						<div class="clients__body">
+							<div class="clients__description">
+								<span>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+									been
+									the industry standard dummy text ever since the 1500s, when an unknown printer took a galley
+									of
+									type and scrambled it to make. a type specimen book.
+								</span>
+							</div>
+							<div class="clients__name">
+								<span>Madam Elisabath, </span>Creative Director
+							</div>
+						</div>
+					</div>
+					<div class="clients__item">
+						<div class="clients__image">
+							<img src="images/face3.png" alt="">
+						</div>
+						<div class="clients__body">
+							<div class="clients__description">
+								<span>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+									been
+									the industry standard dummy text ever since the 1500s, when an unknown printer took a galley
+									of
+									type and scrambled it to make.
+								</span>
+							</div>
+							<div class="clients__name">
+								<span>Clips arter, </span>Lipsum directer
+							</div>
+						</div>
+					</div>
+					<div class="clients__item">
+						<div class="clients__image">
+							<img src="images/face4.png" alt="">
+						</div>
+						<div class="clients__body">
+							<div class="clients__description">
+								<span>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+									been
+									the industry standard dummy text ever since the 1500s, when an unknown printer took a galley
+									of
+									type and scrambled it to make. a type specimen book.
+								</span>
+							</div>
+							<div class="clients__name">
+								<span>Clips arter, </span>Lipsum directer
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 
-	<section class="contacts">
-		<div class="container">
-			<div class="contacts__title title">
-				newsletter
-			</div>
-			<div class="contacts__text text">
-				Lorem Ipsum is simply dummy Business industry
-			</div>
-
-			<form action="" class="contacts__form form">
-				<div>
-					<button type="submit" class="form-button"><i class="fas fa-user"></i></button>
-					<input class="contacts__input" type="text" placeholder="Full Name">
+		<section class="contacts" id="contact">
+			<div class="container">
+				<div class="contacts__title title">
+					newsletter
+				</div>
+				<div class="contacts__text text">
+					Lorem Ipsum is simply dummy Business industry
 				</div>
 
-				<div>
-					<button type="submit" class="form-button"><i class="fas fa-envelope"></i></button>
-					<input class="contacts__input" type="text" placeholder="Email Address">
-				</div>
-				<button class="contacts__button button">Subscribe now</button>
-			</form>
+				<form action="" class="contacts__form form">
+					<div>
+						<button type="submit" class="form-button"><i class="fas fa-user"></i></button>
+						<input class="contacts__input" type="text" placeholder="Full Name">
+					</div>
 
-			<div class="contacts__map">
-				<div class="contacts__map-bg ibg">
-					<img src="images/map.png" alt="">
-				</div>
-				<div class="contacts__contact">
-					<h3>
-						Address
-					</h3>
-					<p>Business street</p>
-					<p>Second north section</p>
-					<p>Bavani nagar. 88769</p>
-					<p>Call : +987-9976-999</p>
-					<a href="#">info@businessface.com</a>
-					<div class="contacts__logo">
-						<a href=""><img src="images/logo.png" alt=""></a>
+					<div>
+						<button type="submit" class="form-button"><i class="fas fa-envelope"></i></button>
+						<input class="contacts__input" type="text" placeholder="Email Address">
+					</div>
+					<button class="contacts__button button">Subscribe now</button>
+				</form>
+
+				<div class="contacts__map">
+					<div class="contacts__map-bg ibg">
+						<img src="images/map.png" alt="">
+					</div>
+					<div class="contacts__contact">
+						<h3>
+							Address
+						</h3>
+						<p>Business street</p>
+						<p>Second north section</p>
+						<p>Bavani nagar. 88769</p>
+						<p>Call : +38(099)9232893</p>
+						<a href="#">esmet@mail.ua</a>
+						<div class="contacts__logo">
+							<a href=""><img src="images/logo.png" alt=""></a>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__menu">
+					<nav>
+						<ul class="footer__list">
+							<li class="footer__link"><a href="#home">home</a></li>
+							<li class="footer__link"><a href="#service">service</a></li>
+							<li class="footer__link"><a href="#about">about us</a></li>
+							<li class="footer__link"><a href="#pricing">pricing table</a></li>
+							<li class="footer__link"><a href="#work">how it work</a></li>
+							<li class="footer__link"><a href="#clients">happy clients</a></li>
+							<li class="footer__link"><a href="#contact">contact us</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__call">
+					<a href="tel:+380999232893"><i class="fas fa-phone"></i> +38(099) 923 28 93 </ a>
+				</div>
+				<nav class="nav">
+					<ul class="footer__socialmedia">
+						<li class="socialmedia__link">
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="socialmedia__link">
+							<a href="#"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="socialmedia__link">
+							<a href="#"><i class="fab fa-vk"></i></a>
+						</li>
+						<li class="socialmedia__link">
+							<a href="#"><i class="fab fa-linkedin-in"></i></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="footer__copyright">
+				All contents © copyright 2014 Business Theme. All rights reserved Designed by : Evgeniy Smetanin
+			</div>
+		</footer>
 	</div>
 
 
@@ -485,6 +534,9 @@
 	<script src="js/slider.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/hover.js"></script>
+	<script src="js/jakor.js"></script>
+
+
 </body>
 
 </html>
