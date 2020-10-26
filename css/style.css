@@ -100,8 +100,6 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
 }
 
-/*font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
 @font-face {
   font-family: "BrandonGrotesque";
   src: url("../fonts/BrandonGrotesque-Bold.eot");
@@ -475,7 +473,6 @@ i {
   }
 }
 
-/*============/baner===================*/
 .slider {
   position: relative;
   background-color: #fff;
@@ -591,14 +588,6 @@ i {
   }
 }
 
-/*@media (max-width: 680px) {
-	.slider.slick-dots {
-		bottom: -40%;
-	}
-	.slider.slick-dots li.slick-active button {
-		background-color: #fff;
-	}
-}*/
 .baner-slider {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -10,10 +10,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-/*font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', sans-serif;*/
-
 @font-face {
 	font-family: "BrandonGrotesque";
 	src: url("../fonts/BrandonGrotesque-Bold.eot");
@@ -351,7 +347,7 @@ i {
 	}
 }
 
-/*============/baner===================*/
+
 
 //==============slider==================
 @import "_slider.scss";
@@ -421,7 +417,7 @@ i {
 		max-height: 100px;
 	}
 }
-//================/slider==============
+
 
 //================services==============
 
@@ -554,7 +550,7 @@ i {
 		padding-top: 20px;
 	}
 }
-//================/services==============
+
 
 //================about==============
 .about {
@@ -622,8 +618,8 @@ i {
 		padding-bottom: 344px;
 	}
 }
-//dfdf
-//================/about==============
+
+//================pricing==============
 
 .pricing {
 	font-family: "Lato", sans-serif;
@@ -742,7 +738,7 @@ i {
 		margin: 20px 10px;
 	}
 }
-
+//============work=============
 .work {
 	padding: 155px 0px 150px 0px;
 
@@ -871,6 +867,7 @@ i {
 		font-size: 60px;
 	}
 }
+
 //========clients===========
 .clients {
 	padding: 140px 0 130px 0;
@@ -987,6 +984,7 @@ i {
 	}
 }
 
+//================contacts====
 .contacts {
 	padding: 150px 0px 50px 0px;
 	position: relative;
