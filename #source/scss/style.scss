@@ -423,21 +423,20 @@ i {
 
 .services {
 	overflow: hidden;
-	padding: 100px 0px 115px 0px;
+	padding: 100px 0px 50px 0px;
 	margin-top: 40px;
 	&__body {
-		padding-top: 80px;
+		padding-top: 40px;
 	}
 
 	&__row {
 		display: flex;
 		flex-wrap: wrap;
-		margin: -40px -40px;
 	}
 
 	&__item {
 		flex: 0 0 50%;
-		padding: 40px 40px;
+		padding: 20px 40px;
 	}
 }
 
@@ -497,17 +496,17 @@ i {
 		padding: 20px 0px 10px 0px;
 	}
 	.services__body {
-		padding-top: 50px;
+		padding-top: 20px;
 	}
 	.services__title {
 		padding-top: 40px;
 	}
 	.services__item {
 		flex: 0 0 100%;
-		padding: 10px 40px;
+		padding: 10px 0px;
 	}
 	.services__row {
-		padding: 10px 40px;
+		padding: 10px 15px;
 	}
 	.item__logo {
 		text-align: center;
@@ -757,10 +756,10 @@ i {
 			content: "";
 			position: absolute;
 			width: 110px;
-			height: 25px;
+			height: 28px;
 			top: -20px;
 			right: -60px;
-			background: url("../images/Shape\ 3.png") 0 0 / cover no-repeat;
+			background: url("../images/Shape.png") 0 0 / cover no-repeat;
 		}
 		&:last-child {
 			&:after {
